@@ -8,6 +8,8 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        ViewBag.Message = "Hello từ Khánh Đăng 😎";
+        ViewBag.Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
         return View();
     }
 
