@@ -8,7 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        ViewBag.Message = "Hello từ Duy Tânnnn 😎";
+        ViewBag.Message = "Hello từ Dang duy hoa 😎";
         ViewBag.Time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
         return View();
     }
